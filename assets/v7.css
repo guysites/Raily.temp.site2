@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+/* Raily v7 graphic storytelling layer — based on v6. Hero and iceberg art remain untouched. */
+.eco-canvas{position:relative;overflow:hidden;border:1px solid rgba(142,165,255,.22);border-radius:28px;background:linear-gradient(145deg,#132846,#0b182b);box-shadow:0 32px 90px rgba(0,0,0,.24),inset 0 1px rgba(255,255,255,.04)}
+.eco-canvas:before{content:"";position:absolute;inset:-15%;pointer-events:none;background:radial-gradient(ellipse at 55% 48%,rgba(91,126,226,.15),transparent 58%);z-index:1}
+.eco-svg.eco-ecosystem-art{display:block;width:100%;height:auto;position:relative;z-index:0;animation:ecoBreath 12s ease-in-out infinite}
+@keyframes ecoBreath{0%,100%{transform:scale(1)}50%{transform:scale(1.012)}}
+.eco-scene{margin-top:46px}.eco-scene .eco-canvas{min-height:320px}
+.problem-intro{align-items:end}.problem-intro h2{max-width:760px}.problem-stat{border-left:1px solid rgba(142,165,255,.25);padding-left:26px}.problem-stat strong{color:#d7f28c}
+.problem-section .eco-step{transition:transform .3s ease,border-color .3s ease}.problem-section .eco-step:hover{transform:translateX(5px);border-color:rgba(103,215,235,.45)}
+.v6-cards{gap:22px;align-items:stretch}
+.v6-card.ice-card{position:relative;overflow:hidden;border:1px solid rgba(142,165,255,.22);border-radius:24px;background:linear-gradient(155deg,rgba(30,52,84,.98),rgba(12,25,44,.99));box-shadow:0 22px 65px rgba(0,0,0,.2);transition:transform .4s ease,border-color .4s ease,box-shadow .4s ease}
+.v6-card.ice-card:hover{transform:translateY(-8px);border-color:rgba(103,215,235,.52);box-shadow:0 34px 82px rgba(0,0,0,.3)}
+.v6-card.ice-card:before{content:"";position:absolute;inset:0 0 auto;height:2px;background:linear-gradient(90deg,#67d7eb,#8ea5ff,#d7f28c);opacity:.75}
+.v6-card .mv.visual-art{height:auto;min-height:0;padding:0;margin:0 0 24px;overflow:hidden;border-radius:17px;background:#10213a;border:1px solid rgba(142,165,255,.2);box-shadow:inset 0 0 55px rgba(76,110,192,.1)}
+.v6-card .mv.visual-art img{display:block;width:100%;height:auto;aspect-ratio:1200/620;object-fit:cover;transition:transform .8s cubic-bezier(.2,.7,.2,1),filter .8s ease}
+.v6-card:hover .mv.visual-art img{transform:scale(1.035);filter:saturate(1.15) brightness(1.08)}
+.v6-card .num{color:#d7f28c;letter-spacing:2px}.v6-card h3{font-size:clamp(21px,2vw,27px);line-height:1.18}.v6-card p{font-size:15px;line-height:1.75;color:#b7c7df}
+.v6-cards .ice-card{padding:18px 18px 26px}.v6-cards .ice-card .num,.v6-cards .ice-card h3,.v6-cards .ice-card p{margin-left:8px;margin-right:8px}
+.v6-audiences.audience-grid{gap:22px;align-items:stretch}.v6-audiences.audience-grid>.content-card{position:relative;overflow:hidden;border-radius:23px;transition:transform .35s ease,border-color .35s ease,box-shadow .35s ease}.v6-audiences.audience-grid>.content-card:hover{transform:translateY(-6px);box-shadow:0 28px 70px rgba(0,0,0,.25)}
+.v6-audiences.audience-grid>.content-card:nth-child(-n+2){border-color:rgba(103,215,235,.32);background:linear-gradient(150deg,rgba(32,56,91,.97),rgba(12,25,44,.99))}
+.v6-audiences.audience-grid>.content-card:nth-child(-n+2):before{content:"INITIAL FOCUS";position:absolute;right:20px;top:20px;padding:6px 10px;border-radius:99px;color:#d7f28c;background:rgba(215,242,140,.1);border:1px solid rgba(215,242,140,.26);font:700 9px Inter,Arial,sans-serif;letter-spacing:1.5px}
+.v6-audiences.audience-grid>.content-card:nth-child(3){opacity:.88;border-style:dashed;border-color:rgba(142,165,255,.22);background:linear-gradient(150deg,rgba(24,40,66,.85),rgba(11,22,38,.96))}
+.v6-audiences.audience-grid>.content-card:nth-child(3):before{content:"BROADER OPPORTUNITY";position:absolute;right:20px;top:20px;padding:6px 10px;border-radius:99px;color:#b7c7df;background:rgba(142,165,255,.08);border:1px solid rgba(142,165,255,.2);font:700 9px Inter,Arial,sans-serif;letter-spacing:1.3px}
+.story-feature{border:1px solid rgba(142,165,255,.25);box-shadow:0 28px 80px rgba(0,0,0,.23)}
+@media(max-width:900px){.v6-cards{grid-template-columns:1fr}.v6-card .mv.visual-art img{aspect-ratio:16/9}.eco-scene .eco-canvas{min-height:0}.problem-stat{margin-top:22px}}
+@media(max-width:600px){.eco-svg.eco-ecosystem-art{min-height:220px;object-fit:cover}.v6-cards .ice-card{padding:12px 12px 22px}.v6-card .mv.visual-art{margin-bottom:18px}.v6-audiences.audience-grid>.content-card:nth-child(-n+2):before,.v6-audiences.audience-grid>.content-card:nth-child(3):before{position:static;display:inline-flex;margin:0 0 12px 12px}}
+@media(prefers-reduced-motion:reduce){.eco-svg.eco-ecosystem-art,.v6-card .mv.visual-art img{animation:none;transition:none}.v6-card.ice-card,.v6-audiences.audience-grid>.content-card{transition:none}}
