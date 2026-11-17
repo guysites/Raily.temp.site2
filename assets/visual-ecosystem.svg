@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 760" role="img" aria-labelledby="t d">
 <title id="t">The new wave of AI interactions meets two kinds of organizations</title><desc id="d">People, personal AI, AI agents and new interfaces send interactions to both organizations. The traditional organization lets human traffic through but blocks AI traffic. The Raily-enabled organization accepts all interaction types and connects directly to organizational data, which includes databases, content, object data, vector stores and knowledge.</desc>
 <defs>
-<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#142b49"/><stop offset="1" stop-color="#091629"/></linearGradient><radialGradient id="halo"><stop stop-color="#6688ee" stop-opacity=".28"/><stop offset="1" stop-color="#6688ee" stop-opacity="0"/></radialGradient><linearGradient id="fast"><stop stop-color="#67d7eb"/><stop offset=".5" stop-color="#8ea5ff"/><stop offset="1" stop-color="#d7f28c"/></linearGradient>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#142b49"/><stop offset="1" stop-color="#091629"/></linearGradient><radialGradient id="halo"><stop stop-color="#6688ee" stop-opacity=".28"/><stop offset="1" stop-color="#6688ee" stop-opacity="0"/></radialGradient><linearGradient id="fast"><stop stop-color="#67d7eb"/><stop offset=".5" stop-color="#8ea5ff"/><stop offset="1" stop-color="#d7f28c"/></linearGradient><linearGradient id="blocked" gradientUnits="userSpaceOnUse" x1="260" y1="0" x2="680" y2="0"><stop stop-color="#67d7eb" stop-opacity=".95"/><stop offset=".58" stop-color="#8ea5ff" stop-opacity=".75"/><stop offset="1" stop-color="#ff8c9b" stop-opacity=".06"/></linearGradient><marker id="arrowBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#9eb7ed"/></marker><marker id="arrowFast" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#8ea5ff"/></marker>
 <style>
 .cap{font:700 13px Arial;letter-spacing:2px;fill:#91a9d0}.head{font:700 19px Arial;fill:#edf5ff}.sub{font:13px Arial;fill:#a8bad3}.tiny{font:700 10px Arial;letter-spacing:1.4px;fill:#a9bdd8}
 .fast{fill:none;stroke:url(#fast);stroke-linecap:round;stroke-dasharray:12 12;animation:move 3s linear infinite}.slow{fill:none;stroke:#8798b2;stroke-width:3;stroke-dasharray:3 12;animation:move 12s linear infinite}
@@ -17,29 +17,32 @@
 <g transform="translate(55 292)"><circle cx="27" cy="27" r="23" fill="#293f78" stroke="#8ea5ff"/><path d="M27 9L33 21L45 27L33 33L27 45L21 33L9 27L21 21Z" fill="#dce6ff"/><text x="64" y="25" class="head">Personal AI</text><text x="64" y="46" class="sub">Acting for individuals</text></g>
 <g transform="translate(55 406)"><circle cx="27" cy="27" r="23" fill="#214665" stroke="#67d7eb"/><rect x="14" y="14" width="26" height="26" rx="7" fill="#c9f4ff"/><circle cx="22" cy="24" r="2" fill="#18385b"/><circle cx="32" cy="24" r="2" fill="#18385b"/><path d="M21 32H33" stroke="#18385b" stroke-width="2"/><text x="64" y="25" class="head">AI agents</text><text x="64" y="46" class="sub">Searching, deciding, acting</text></g>
 <g transform="translate(55 520)"><circle cx="27" cy="27" r="23" fill="#28465b" stroke="#d7f28c"/><path d="M13 27H41M27 13V41M17 17L37 37M37 17L17 37" stroke="#d7f28c" stroke-width="2.5"/><text x="64" y="25" class="head">New AI interfaces</text><text x="64" y="46" class="sub">New ways to reach you</text></g></g>
-<!-- Each incoming interaction branches toward both organization models -->
-<!-- Traditional organization: people pass through; AI traffic is rejected -->
-<path class="slow" d="M260 205 C365 205 405 260 500 260 H890"/>
-<path class="fast" stroke-width="5" d="M260 319 C365 319 410 292 500 292 H625"/>
-<path class="fast" stroke-width="5" d="M260 433 C365 433 410 316 500 316 H625" style="animation-delay:-1s"/>
-<path class="fast" stroke-width="5" d="M260 547 C365 547 410 340 500 340 H625" style="animation-delay:-2s"/>
-<!-- Rejected AI streams: clear stop marks -->
-<g stroke="#ff8c9b" stroke-width="5" stroke-linecap="round"><path d="M618 284L636 302M636 284L618 302"/><path d="M618 308L636 326M636 308L618 326"/><path d="M618 332L636 350M636 332L618 350"/></g>
-<!-- Raily-enabled organization: all four interaction types enter -->
-<path class="slow" stroke-width="3" d="M260 205 C365 205 395 444 500 444"/>
-<path class="fast" stroke-width="5" d="M260 319 C370 319 400 482 500 482"/>
-<path class="fast" stroke-width="5" d="M260 433 C370 433 405 520 500 520" style="animation-delay:-1s"/>
-<path class="fast" stroke-width="5" d="M260 547 C370 547 405 558 500 558" style="animation-delay:-2s"/>
+<!-- Every interaction path is directional in both directions -->
+<path class="slow" marker-start="url(#arrowBlue)" marker-end="url(#arrowBlue)" d="M260 205 C365 205 405 260 500 260 H890 C980 260 1015 292 1097 315"/>
+<!-- AI approaches the traditional organization, fades as it enters, then is explicitly blocked -->
+<path fill="none" stroke="url(#blocked)" stroke-width="5" stroke-linecap="round" stroke-dasharray="12 12" marker-start="url(#arrowFast)" d="M260 319 C365 319 410 292 660 292"/>
+<path fill="none" stroke="url(#blocked)" stroke-width="5" stroke-linecap="round" stroke-dasharray="12 12" marker-start="url(#arrowFast)" d="M260 433 C365 433 410 316 660 316" style="animation:move 3s linear infinite;animation-delay:-1s"/>
+<path fill="none" stroke="url(#blocked)" stroke-width="5" stroke-linecap="round" stroke-dasharray="12 12" marker-start="url(#arrowFast)" d="M260 547 C365 547 410 340 660 340" style="animation:move 3s linear infinite;animation-delay:-2s"/>
+<!-- Stop barriers inside the traditional organization -->
+<g transform="translate(682 292)"><path d="M-11 -18H11L18 -11V11L11 18H-11L-18 11V-11Z" fill="#512d43" stroke="#ff8c9b" stroke-width="3"/><path d="M-8 0H8" stroke="#ffe5e9" stroke-width="4" stroke-linecap="round"/></g>
+<g transform="translate(682 316)"><path d="M-11 -18H11L18 -11V11L11 18H-11L-18 11V-11Z" fill="#512d43" stroke="#ff8c9b" stroke-width="3"/><path d="M-8 0H8" stroke="#ffe5e9" stroke-width="4" stroke-linecap="round"/></g>
+<g transform="translate(682 340)"><path d="M-11 -18H11L18 -11V11L11 18H-11L-18 11V-11Z" fill="#512d43" stroke="#ff8c9b" stroke-width="3"/><path d="M-8 0H8" stroke="#ffe5e9" stroke-width="4" stroke-linecap="round"/></g>
+<!-- Raily-enabled organization: all interaction types flow both ways -->
+<path class="slow" marker-start="url(#arrowBlue)" marker-end="url(#arrowBlue)" stroke-width="3" d="M260 205 C365 205 395 444 500 444"/>
+<path class="fast" marker-start="url(#arrowFast)" marker-end="url(#arrowFast)" stroke-width="5" d="M260 319 C370 319 400 482 500 482"/>
+<path class="fast" marker-start="url(#arrowFast)" marker-end="url(#arrowFast)" stroke-width="5" d="M260 433 C370 433 405 520 500 520" style="animation-delay:-1s"/>
+<path class="fast" marker-start="url(#arrowFast)" marker-end="url(#arrowFast)" stroke-width="5" d="M260 547 C370 547 405 558 500 558" style="animation-delay:-2s"/>
 <!-- old org -->
 <text x="500" y="145" class="tiny">TWO KINDS OF ORGANIZATIONS</text>
 <g transform="translate(500 178)"><rect width="390" height="190" rx="22" fill="#1a2c45" stroke="#788ba6" stroke-width="1.5"/><text x="26" y="42" class="head">Traditional organization</text><text x="26" y="66" class="sub">Built for a few known channels</text><rect x="25" y="91" width="340" height="70" rx="13" fill="#13243b" stroke="#63758e" stroke-dasharray="5 7"/><path d="M0 125H92" stroke="#9baac0" stroke-width="3"/></g>
 <!-- Raily org -->
 <g transform="translate(500 405)"><rect width="390" height="220" rx="22" fill="#16334f" stroke="#8ea5ff" stroke-width="2"/><rect x="10" y="10" width="370" height="200" rx="17" fill="none" stroke="#67d7eb" stroke-opacity=".35"/><circle cx="345" cy="34" r="5" fill="#d7f28c"/><text x="25" y="43" class="head">Raily-enabled organization</text><text x="25" y="67" class="sub">Ready for every interaction type</text><rect x="22" y="91" width="346" height="82" rx="13" fill="#102740" stroke="#67d7eb"/><text x="40" y="119" class="tiny" fill="#a4eafa">RAILY · GOVERNED ACCESS LAYER</text><text x="40" y="152" font-family="Arial" font-size="14" fill="#eaf5ff">Fast · contextual · permission-aware</text><text x="24" y="198" class="tiny" fill="#d7f28c">WIDE CAPACITY · MULTIPLE CHANNELS · CONTROL</text></g>
-<!-- Raily connects directly to the organization's information landscape -->
-<path class="fast" stroke-width="8" d="M890 515 C970 515 985 315 1097 315"/>
+<!-- Human and Raily paths both connect to the organizational data hub -->
+<path class="slow" marker-start="url(#arrowBlue)" marker-end="url(#arrowBlue)" stroke-width="3" d="M890 444 C975 444 1010 350 1097 315"/>
+<path class="fast" marker-start="url(#arrowFast)" marker-end="url(#arrowFast)" stroke-width="8" d="M890 515 C970 515 985 315 1097 315"/>
 <text x="970" y="145" class="tiny">CONNECTED DATA SOURCES</text>
 <g transform="translate(1030 190)"><circle cx="150" cy="125" r="115" fill="#6889e8" opacity=".09"/><circle cx="150" cy="125" r="83" fill="#142b48" stroke="#8ea5ff" stroke-width="2"/><circle cx="150" cy="125" r="63" fill="none" stroke="#67d7eb" stroke-dasharray="5 8"/><path d="M124 96H176V154H124Z" fill="#244a70" stroke="#d7f28c" stroke-width="2"/><path d="M135 110H165M135 124H165M135 138H158" stroke="#d8f4ff" stroke-width="3" stroke-linecap="round"/><text x="150" y="235" text-anchor="middle" class="head">Your organization's data</text><text x="150" y="257" text-anchor="middle" class="sub">Connected · contextualized · governed</text></g>
-<g stroke="#67d7eb" stroke-opacity=".6" fill="none" stroke-width="2"><path d="M1180 448L1020 520M1180 448L1170 520M1180 448L1320 520M1180 448L1090 620M1180 448L1260 620"/></g>
+<g stroke="#67d7eb" stroke-opacity=".6" fill="none" stroke-width="2" marker-start="url(#arrowBlue)" marker-end="url(#arrowBlue)"><path d="M1180 448L1020 520M1180 448L1170 520M1180 448L1320 520M1180 448L1090 620M1180 448L1260 620"/></g>
 <g font-family="Arial">
 <g transform="translate(970 500)"><rect width="125" height="66" rx="13" fill="#1b3856" stroke="#8ea5ff"/><text x="62" y="27" text-anchor="middle" font-size="21" fill="#d8e7ff">▤</text><text x="62" y="49" text-anchor="middle" class="tiny">DATABASES</text></g>
 <g transform="translate(1105 500)"><rect width="125" height="66" rx="13" fill="#1b3856" stroke="#67d7eb"/><text x="62" y="27" text-anchor="middle" font-size="21" fill="#d8faff">▧</text><text x="62" y="49" text-anchor="middle" class="tiny">CONTENT</text></g>
