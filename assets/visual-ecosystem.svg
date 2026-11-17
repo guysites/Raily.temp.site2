@@ -4,8 +4,8 @@
 <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#142b49"/><stop offset="1" stop-color="#091629"/></linearGradient><radialGradient id="halo"><stop stop-color="#6688ee" stop-opacity=".28"/><stop offset="1" stop-color="#6688ee" stop-opacity="0"/></radialGradient><linearGradient id="fast"><stop stop-color="#67d7eb"/><stop offset=".5" stop-color="#8ea5ff"/><stop offset="1" stop-color="#d7f28c"/></linearGradient><linearGradient id="blocked" gradientUnits="userSpaceOnUse" x1="260" y1="0" x2="680" y2="0"><stop stop-color="#67d7eb" stop-opacity=".95"/><stop offset=".58" stop-color="#8ea5ff" stop-opacity=".75"/><stop offset="1" stop-color="#ff8c9b" stop-opacity=".06"/></linearGradient>
 <style>
 .cap{font:700 13px Arial;letter-spacing:2px;fill:#91a9d0}.head{font:700 19px Arial;fill:#edf5ff}.sub{font:13px Arial;fill:#a8bad3}.tiny{font:700 10px Arial;letter-spacing:1.4px;fill:#a9bdd8}
-.fast{fill:none;stroke:url(#fast);stroke-linecap:round}.slow{fill:none;stroke:#8798b2;stroke-linecap:round}.traffic-a{stroke-dasharray:9 13;animation:move 2.8s linear infinite}.traffic-b{stroke-dasharray:9 13;animation:move-back 2.8s linear infinite}@keyframes move-back{to{stroke-dashoffset:192}}
-@keyframes move{to{stroke-dashoffset:-192}}@media(prefers-reduced-motion:reduce){.fast,.slow{animation:none}}
+.fast{fill:none;stroke:url(#fast);stroke-linecap:round}.slow{fill:none;stroke:#8798b2;stroke-linecap:round}.traffic-a{stroke-dasharray:6 20;animation:move 7s linear infinite;opacity:.72}.traffic-b{stroke-dasharray:6 20;animation:move-back 7s linear infinite;opacity:.72}@keyframes move-back{to{stroke-dashoffset:192}}
+@keyframes move{to{stroke-dashoffset:-192}}@media(prefers-reduced-motion:reduce){.traffic-a,.traffic-b{animation:none}}
 </style></defs>
 <rect width="1440" height="760" rx="28" fill="url(#bg)"/><ellipse cx="760" cy="360" rx="700" ry="390" fill="url(#halo)"/>
 <g opacity=".1" stroke="#8ea5ff"><path d="M0 150H1440M0 300H1440M0 450H1440M0 600H1440"/><path d="M180 0V760M360 0V760M540 0V760M720 0V760M900 0V760M1080 0V760M1260 0V760"/></g>
