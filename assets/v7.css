@@ -62,7 +62,7 @@
 .contact-form input{width:100%;min-height:48px;padding:12px 14px;border:1px solid rgba(190,210,245,.24);border-radius:9px;background:rgba(7,19,35,.38);color:#f5f8ff;font:inherit;font-size:15px;outline:none;box-sizing:border-box}
 .contact-form input::placeholder{color:#8294ad}
 .contact-form input:focus{border-color:#9db5ff;box-shadow:0 0 0 3px rgba(157,181,255,.13)}
-.contact-submit{display:flex;align-items:center;justify-content:space-between;margin-top:12px;padding:14px 17px;border:0;border-radius:9px;background:#d7f28c;color:#14243a;font:700 14px inherit;cursor:pointer}
+.contact-submit{display:flex;align-items:center;justify-content:space-between;margin-top:12px;padding:14px 17px;border:0;border-radius:9px;background:#d7f28c;color:#14243a;font-family:inherit;font-size:14px;font-weight:700;cursor:pointer}
 .contact-form-note{margin:2px 0 0!important;color:#93a6bf!important;font-size:12px!important;line-height:1.5!important}
 .contact-direct{margin-top:24px;padding-top:20px;border-top:1px solid rgba(255,255,255,.17);color:#b9c8dc;font-size:14px}
 .contact-direct a{color:#d7f28c;font-weight:650;text-decoration:none}
