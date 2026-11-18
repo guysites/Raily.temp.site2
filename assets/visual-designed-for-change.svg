@@ -111,11 +111,11 @@
 </g>
 <!-- Dynamic connection paths: both ecosystems can change independently -->
 <g fill="none" stroke-linecap="round">
- <path d="M278 183C390 183 420 236 548 236" stroke="#a99cff" stroke-opacity=".38" stroke-width="1.5"/><path d="M278 298H548" stroke="#8ea5ff" stroke-opacity=".38" stroke-width="1.5"/><path d="M278 413C390 413 420 466 548 466" stroke="#67d7eb" stroke-opacity=".38" stroke-width="1.5"/>
+ 
  <path d="M892 236C990 236 1000 175 1110 175" stroke="#67d7eb" stroke-opacity=".38" stroke-width="1.5"/><path d="M892 298H1110" stroke="#67d7eb" stroke-opacity=".38" stroke-width="1.5"/><path d="M892 466C990 466 1000 436 1110 436" stroke="#d7f28c" stroke-opacity=".38" stroke-width="1.5"/>
- <path class="flow aiFlow" d="M278 183C390 183 420 236 548 236M278 298H548M278 413C390 413 420 466 548 466"/>
+ 
  <path class="flow dataFlow" d="M892 236C990 236 1000 175 1110 175M892 298H1110M892 466C990 466 1000 436 1110 436"/>
 </g>
-<g filter="url(#glow)"><circle r="4" fill="#c9bdff"><animateMotion dur="5s" repeatCount="indefinite" path="M548 236C420 236 390 183 278 183"/></circle><circle r="4" fill="#aebaff"><animateMotion dur="5.8s" begin="-2s" repeatCount="indefinite" path="M548 298H278"/></circle><circle r="4" fill="#8ce8ed"><animateMotion dur="5.2s" begin="-1s" repeatCount="indefinite" path="M548 466C420 466 390 413 278 413"/></circle><circle r="4" fill="#67d7eb"><animateMotion dur="5.4s" begin="-1.5s" repeatCount="indefinite" path="M1110 175C1000 175 990 236 892 236"/></circle><circle r="4" fill="#67d7eb"><animateMotion dur="6s" begin="-3s" repeatCount="indefinite" path="M1110 298H892"/></circle><circle r="4" fill="#d7f28c"><animateMotion dur="5.7s" begin="-2s" repeatCount="indefinite" path="M1110 436C1000 436 990 466 892 466"/></circle></g>
+<g filter="url(#glow)"><circle r="4" fill="#67d7eb"><animateMotion dur="5.4s" begin="-1.5s" repeatCount="indefinite" path="M1110 175C1000 175 990 236 892 236"/></circle><circle r="4" fill="#67d7eb"><animateMotion dur="6s" begin="-3s" repeatCount="indefinite" path="M1110 298H892"/></circle><circle r="4" fill="#d7f28c"><animateMotion dur="5.7s" begin="-2s" repeatCount="indefinite" path="M1110 436C1000 436 990 466 892 466"/></circle></g>
 <text x="720" y="620" text-anchor="middle" class="micro">THE ECOSYSTEM CHANGES. YOUR ACCESS LAYER STAYS CONSISTENT.</text>
 </svg>
