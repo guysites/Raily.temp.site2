@@ -1,20 +1,96 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 650" role="img" aria-labelledby="t d"><title id="t">Inside the Raily AI access platform</title><desc id="d">Organizational systems connect to Raily. Its three capabilities integrate sources, contextualize information, and govern access as external AI agents request and receive authorized information.</desc>
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#142b49"/><stop offset="1" stop-color="#0b192d"/></linearGradient><linearGradient id="layer" x2="1" y2="0"><stop stop-color="#1c3c5c"/><stop offset="1" stop-color="#202e50"/></linearGradient><pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#9db3d8" stroke-opacity=".05"/></pattern></defs>
-<rect width="1440" height="650" rx="28" fill="url(#bg)"/><rect width="1440" height="650" rx="28" fill="url(#g)"/>
-<g font-family="Inter,Arial,sans-serif"><text x="72" y="68" fill="#9eafff" font-size="12" font-weight="700" letter-spacing="2.5">YOUR EXISTING INFRASTRUCTURE</text><text x="1368" y="68" text-anchor="end" fill="#9eafff" font-size="12" font-weight="700" letter-spacing="2.5">THE EXTERNAL AI ECOSYSTEM</text><text x="720" y="68" text-anchor="middle" fill="#d7f28c" font-size="12" font-weight="700" letter-spacing="2.5">THE AI ACCESS LAYER</text></g>
-<!-- sources -->
-<g font-family="Inter,Arial,sans-serif"><g fill="#172d49" stroke="#6586b5" stroke-opacity=".45">
-<rect x="72" y="126" width="250" height="92" rx="16"/><rect x="72" y="238" width="250" height="92" rx="16"/><rect x="72" y="350" width="250" height="92" rx="16"/>
-</g><g fill="#eef4ff" font-size="17" font-weight="600"><text x="100" y="165">Databases</text><text x="100" y="277">CMS &amp; content</text><text x="100" y="389">Existing platforms</text></g><g fill="#9fb1cc" font-size="12"><text x="100" y="190">Structured information</text><text x="100" y="302">Documents · media · archives</text><text x="100" y="414">APIs · storage · vector DBs</text></g><g fill="none" stroke="#67d7eb" stroke-width="2"><path d="M322 172H408Q432 172 432 196V244H472M322 284H472M322 396H408Q432 396 432 372V324H472"/></g><g fill="none" stroke="#67d7eb" stroke-width="3" stroke-dasharray="5 13" stroke-linecap="round"><path d="M322 172H408Q432 172 432 196V244H472M322 284H472M322 396H408Q432 396 432 372V324H472"/></g><text x="72" y="480" fill="#8197b7" font-size="11" letter-spacing="1.8">KEEP YOUR EXISTING STACK</text></g>
-<!-- Raily engine -->
-<g transform="translate(472 104)" font-family="Inter,Arial,sans-serif"><rect width="496" height="450" rx="26" fill="#152a46" stroke="#8ea5ff" stroke-opacity=".5"/><circle cx="34" cy="39" r="5" fill="#d7f28c"/><text x="52" y="46" fill="#f2f6ff" font-size="23" font-weight="700">Raily</text><text x="466" y="44" text-anchor="end" fill="#9eafff" font-size="10" font-weight="700" letter-spacing="1.6">AI ACCESS PLATFORM</text><path d="M24 72H472" stroke="#8ea5ff" stroke-opacity=".2"/>
-<g><rect x="24" y="94" width="448" height="94" rx="15" fill="url(#layer)" stroke="#67d7eb" stroke-opacity=".55"/><circle cx="58" cy="141" r="18" fill="#28516a"/><path d="M49 141h18M58 132v18" stroke="#67d7eb" stroke-width="2"/><text x="91" y="128" fill="#67d7eb" font-size="10" font-weight="700" letter-spacing="1.6">01 / CONNECT</text><text x="91" y="155" fill="#f2f6ff" font-size="19" font-weight="600">Integrate existing sources</text><text x="91" y="174" fill="#aabbd2" font-size="11">Connectors · systems · repositories</text></g>
-<g><rect x="24" y="202" width="448" height="106" rx="15" fill="#202f55" stroke="#8ea5ff" stroke-opacity=".65"/><circle cx="58" cy="255" r="18" fill="#354674"/><g fill="none" stroke="#b9c6ff" stroke-width="1.7"><circle cx="52" cy="251" r="5"/><circle cx="64" cy="247" r="4"/><circle cx="64" cy="261" r="5"/><path d="m56 250 5-2m-6 7 6 4"/></g><text x="91" y="238" fill="#b9c6ff" font-size="10" font-weight="700" letter-spacing="1.6">02 / CONTEXTUALIZE</text><text x="91" y="266" fill="#f2f6ff" font-size="19" font-weight="600">Build coherent understanding</text><text x="91" y="287" fill="#b2bfd9" font-size="12">Meaning · relationships · relevant context</text></g>
-<g><rect x="24" y="322" width="448" height="102" rx="15" fill="#263b49" stroke="#d7f28c" stroke-opacity=".65"/><circle cx="58" cy="373" r="18" fill="#40533f"/><path d="M58 359l11 5v8c0 8-11 13-11 13s-11-5-11-13v-8z" fill="none" stroke="#d7f28c" stroke-width="1.7"/><text x="91" y="358" fill="#d7f28c" font-size="10" font-weight="700" letter-spacing="1.6">03 / EXPOSE &amp; CONTROL</text><text x="91" y="385" fill="#f2f6ff" font-size="19" font-weight="600">Govern every interaction</text><text x="91" y="405" fill="#c0cbbd" font-size="12">Identity · permissions · usage</text></g></g>
-<!-- external ecosystem -->
-<g font-family="Inter,Arial,sans-serif" fill="#172d49" stroke="#8ea5ff" stroke-opacity=".4"><rect x="1110" y="126" width="258" height="92" rx="16"/><rect x="1110" y="238" width="258" height="92" rx="16"/><rect x="1110" y="350" width="258" height="92" rx="16"/></g><g font-family="Inter,Arial,sans-serif" fill="#eef4ff" font-size="16" font-weight="600"><text x="1140" y="165">Customer agents</text><text x="1140" y="277">Partner systems</text><text x="1140" y="389">Public AI apps</text></g><g font-family="Inter,Arial,sans-serif" fill="#9fb1cc" font-size="12"><text x="1140" y="190">Personal AI · assistants</text><text x="1140" y="302">Business applications</text><text x="1140" y="414">AI platforms · services</text></g>
-<!-- request and response paths -->
-<g fill="none" stroke-linecap="round"><path d="M1110 172H1040Q1010 172 1010 202V230H968M1110 284H1010V284H968M1110 396H1040Q1010 396 1010 366V338H968" stroke="#8ea5ff" stroke-opacity=".65" stroke-width="2"/><path d="M968 500H1040Q1070 500 1070 470V454H1110" stroke="#d7f28c" stroke-opacity=".75" stroke-width="2"/><path d="M1110 172H1040Q1010 172 1010 202V230H968M1110 284H1010V284H968M1110 396H1040Q1010 396 1010 366V338H968" stroke="#aabaff" stroke-width="3" stroke-dasharray="5 13" class="req"/><path d="M968 500H1040Q1070 500 1070 470V454H1110" stroke="#d7f28c" stroke-width="3" stroke-dasharray="5 13" class="res"/></g>
-<g font-family="Inter,Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.1"><rect x="1000" y="468" width="154" height="26" rx="13" fill="#202e4b" stroke="#8ea5ff" stroke-opacity=".4"/><text x="1077" y="485" text-anchor="middle" fill="#bdc9ff">AGENT REQUEST</text><rect x="1000" y="520" width="154" height="26" rx="13" fill="#283c38" stroke="#d7f28c" stroke-opacity=".4"/><text x="1077" y="537" text-anchor="middle" fill="#d7f28c">AUTHORIZED RESPONSE</text></g>
-<text x="720" y="610" fill="#8fa4c4" font-family="Inter,Arial,sans-serif" font-size="12" text-anchor="middle">Connect what you have. Add meaning. Decide what each agent can access.</text>
-<style>.req{animation:in 6s linear infinite}.res{animation:out 7s linear infinite}@keyframes in{to{stroke-dashoffset:-180}}@keyframes out{to{stroke-dashoffset:180}}@media(prefers-reduced-motion:reduce){.req,.res{animation:none}}</style></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 680" role="img" aria-labelledby="title desc">
+<title id="title">Raily connects organizational knowledge to the AI ecosystem</title>
+<desc id="desc">Multiple external AI agents interact with Raily. Raily connects to existing databases, content systems, storage and vector databases, combines information into context, and selectively governs what each agent can access.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#142b49"/><stop offset=".55" stop-color="#0d1d33"/><stop offset="1" stop-color="#101a30"/></linearGradient>
+ <linearGradient id="panel" x2="1" y2="1"><stop stop-color="#1b3555"/><stop offset="1" stop-color="#142640"/></linearGradient>
+ <linearGradient id="connect" x2="1" y2="0"><stop stop-color="#16465a"/><stop offset="1" stop-color="#1c3d5c"/></linearGradient>
+ <linearGradient id="context" x2="1" y2="0"><stop stop-color="#26375d"/><stop offset="1" stop-color="#273456"/></linearGradient>
+ <linearGradient id="govern" x2="1" y2="0"><stop stop-color="#31473f"/><stop offset="1" stop-color="#243c4c"/></linearGradient>
+ <linearGradient id="agentline"><stop stop-color="#9c9cff"/><stop offset="1" stop-color="#67d7eb"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#91a9d2" stroke-opacity=".045"/></pattern>
+</defs>
+<rect width="1440" height="680" rx="30" fill="url(#bg)"/><rect width="1440" height="680" rx="30" fill="url(#grid)"/>
+<circle cx="720" cy="330" r="300" fill="#647ed1" opacity=".045"/><circle cx="720" cy="330" r="250" fill="none" stroke="#8ea5ff" stroke-opacity=".09" stroke-dasharray="2 13"/>
+<g font-family="Inter,Arial,sans-serif" font-weight="700" letter-spacing="2.3" font-size="12">
+ <text x="66" y="62" fill="#aab4ff">THE AI ECOSYSTEM</text><text x="1374" y="62" text-anchor="end" fill="#67d7eb">YOUR EXISTING INFRASTRUCTURE</text><text x="720" y="62" text-anchor="middle" fill="#d7f28c">THE RAILY AI ACCESS LAYER</text>
+</g>
+<!-- AI ecosystem cards on the LEFT -->
+<g font-family="Inter,Arial,sans-serif">
+ <g fill="url(#panel)" stroke="#9c9cff" stroke-opacity=".42">
+  <rect x="58" y="112" width="292" height="116" rx="18"/><rect x="58" y="260" width="292" height="116" rx="18"/><rect x="58" y="408" width="292" height="116" rx="18"/>
+ </g>
+ <!-- Personal AI icon -->
+ <g transform="translate(82 139)"><rect width="62" height="62" rx="16" fill="#303c70"/><circle cx="31" cy="24" r="10" fill="none" stroke="#c4c4ff" stroke-width="2"/><path d="M14 49c3-11 31-11 34 0M46 12l3-6m5 13 6-2" fill="none" stroke="#c4c4ff" stroke-width="2" stroke-linecap="round"/><path d="M49 5l2 4 4 1-4 2-2 4-2-4-4-2 4-1z" fill="#d7f28c"/></g>
+ <text x="160" y="157" fill="#f2f4ff" font-size="17" font-weight="700">Personal AI</text><text x="160" y="180" fill="#b4bddc" font-size="12">Assistants acting for people</text><g fill="#aeb8e9" font-size="9" font-weight="700" letter-spacing="1"><text x="160" y="204">INDIVIDUALS</text></g>
+ <!-- partner icon -->
+ <g transform="translate(82 287)"><rect width="62" height="62" rx="16" fill="#303c70"/><g fill="none" stroke="#aeb8ff" stroke-width="2"><circle cx="18" cy="20" r="6"/><circle cx="44" cy="20" r="6"/><circle cx="31" cy="44" r="6"/><path d="M23 23l5 15m11-15-5 15M24 20h14"/></g></g>
+ <text x="160" y="305" fill="#f2f4ff" font-size="17" font-weight="700">Partner agents</text><text x="160" y="328" fill="#b4bddc" font-size="12">Workflows across businesses</text><text x="160" y="352" fill="#aeb8e9" font-size="9" font-weight="700" letter-spacing="1">PARTNERS &amp; ECOSYSTEMS</text>
+ <!-- public AI icon -->
+ <g transform="translate(82 435)"><rect width="62" height="62" rx="16" fill="#303c70"/><rect x="12" y="13" width="38" height="30" rx="7" fill="none" stroke="#aeb8ff" stroke-width="2"/><path d="M19 23h24M19 30h15M23 49h16M31 43v6" stroke="#aeb8ff" stroke-width="2" stroke-linecap="round"/><circle cx="43" cy="36" r="3" fill="#d7f28c"/></g>
+ <text x="160" y="453" fill="#f2f4ff" font-size="17" font-weight="700">AI applications</text><text x="160" y="476" fill="#b4bddc" font-size="12">Public AI platforms &amp; tools</text><text x="160" y="500" fill="#aeb8e9" font-size="9" font-weight="700" letter-spacing="1">PUBLIC AI</text>
+ <text x="58" y="568" fill="#899bc0" font-size="10" letter-spacing="1.5">MANY AGENTS. DIFFERENT IDENTITIES.</text>
+</g>
+<!-- existing infrastructure on the RIGHT -->
+<g font-family="Inter,Arial,sans-serif">
+ <g fill="url(#panel)" stroke="#67d7eb" stroke-opacity=".38"><rect x="1090" y="112" width="292" height="88" rx="16"/><rect x="1090" y="214" width="292" height="88" rx="16"/><rect x="1090" y="316" width="292" height="88" rx="16"/><rect x="1090" y="418" width="292" height="88" rx="16"/></g>
+ <!-- DB icon -->
+ <g transform="translate(1110 130)" fill="none" stroke="#67d7eb" stroke-width="2"><ellipse cx="24" cy="10" rx="17" ry="7"/><path d="M7 10v34c0 9 34 9 34 0V10M7 26c0 9 34 9 34 0"/></g><text x="1170" y="151" fill="#f1f6ff" font-size="16" font-weight="700">Databases</text><text x="1170" y="174" fill="#a8bfd2" font-size="11">SQL · business records</text>
+ <!-- CMS icon -->
+ <g transform="translate(1110 232)" fill="none" stroke="#67d7eb" stroke-width="2"><rect x="7" y="5" width="34" height="38" rx="4"/><path d="M14 15h20M14 22h20M14 29h14"/></g><text x="1170" y="253" fill="#f1f6ff" font-size="16" font-weight="700">Content &amp; knowledge</text><text x="1170" y="276" fill="#a8bfd2" font-size="11">CMS · documents · archives</text>
+ <!-- object storage -->
+ <g transform="translate(1110 334)" fill="none" stroke="#67d7eb" stroke-width="2"><path d="M7 16l17-10 17 10v23L24 49 7 39zM7 16l17 10 17-10M24 26v23"/></g><text x="1170" y="355" fill="#f1f6ff" font-size="16" font-weight="700">Storage &amp; repositories</text><text x="1170" y="378" fill="#a8bfd2" font-size="11">Object stores · file systems</text>
+ <!-- vector db and APIs -->
+ <g transform="translate(1110 436)" fill="none" stroke="#67d7eb" stroke-width="2"><circle cx="13" cy="13" r="5"/><circle cx="37" cy="13" r="5"/><circle cx="25" cy="37" r="5"/><path d="M18 16l4 16m11-16-5 16M18 13h14"/></g><text x="1170" y="457" fill="#f1f6ff" font-size="16" font-weight="700">Vector DBs &amp; APIs</text><text x="1170" y="480" fill="#a8bfd2" font-size="11">Existing AI &amp; service layers</text>
+ <text x="1090" y="550" fill="#899bc0" font-size="10" letter-spacing="1.5">NO RIP &amp; REPLACE REQUIRED</text>
+</g>
+<!-- streams from AI agents into Raily; each has distinct character -->
+<g fill="none" stroke-linecap="round">
+ <path d="M350 168H408Q430 168 430 190V230H460" stroke="#a99cff" stroke-width="2" stroke-opacity=".7"/>
+ <path d="M350 316H460" stroke="#8ea5ff" stroke-width="2" stroke-opacity=".7"/>
+ <path d="M350 464H408Q430 464 430 442V408H460" stroke="#67d7eb" stroke-width="2" stroke-opacity=".7"/>
+ <path d="M350 168H408Q430 168 430 190V230H460M350 316H460M350 464H408Q430 464 430 442V408H460" stroke="url(#agentline)" stroke-width="3" stroke-dasharray="5 15" class="agent-flow"/>
+</g>
+<!-- data from existing systems into Raily -->
+<g fill="none" stroke-linecap="round">
+ <path d="M1090 156H1038Q1018 156 1018 176V210H980M1090 258H980M1090 360H1038Q1018 360 1018 340V312H980M1090 462H1038Q1018 462 1018 442V414H980" stroke="#67d7eb" stroke-opacity=".6" stroke-width="2"/>
+ <path d="M1090 156H1038Q1018 156 1018 176V210H980M1090 258H980M1090 360H1038Q1018 360 1018 340V312H980M1090 462H1038Q1018 462 1018 442V414H980" stroke="#67d7eb" stroke-width="3" stroke-dasharray="3 13" class="source-flow"/>
+</g>
+<!-- central Raily platform -->
+<g transform="translate(460 94)" font-family="Inter,Arial,sans-serif">
+ <rect width="520" height="474" rx="26" fill="#142943" stroke="#8ea5ff" stroke-opacity=".55" stroke-width="1.5"/><rect x="1" y="1" width="518" height="472" rx="25" fill="none" stroke="#fff" stroke-opacity=".045"/>
+ <circle cx="34" cy="38" r="5" fill="#d7f28c" filter="url(#glow)"/><text x="52" y="45" fill="#f2f6ff" font-size="23" font-weight="700">Raily</text><text x="492" y="43" text-anchor="end" fill="#9eafff" font-size="10" font-weight="700" letter-spacing="1.7">AI ACCESS PLATFORM</text><path d="M22 68H498" stroke="#8ea5ff" stroke-opacity=".2"/>
+ <!-- connect -->
+ <rect x="22" y="86" width="476" height="104" rx="15" fill="url(#connect)" stroke="#67d7eb" stroke-opacity=".62"/>
+ <circle cx="55" cy="138" r="18" fill="#24556a"/><path d="M45 138h20M55 128v20" stroke="#67d7eb" stroke-width="2.2" stroke-linecap="round"/>
+ <text x="86" y="119" fill="#67d7eb" font-size="10" font-weight="700" letter-spacing="1.6">01 / CONNECT</text><text x="86" y="144" fill="#f2f6ff" font-size="18" font-weight="700">Integrate existing sources</text><text x="86" y="166" fill="#b0c7d9" font-size="11">Connectors · systems · repositories</text>
+ <!-- contextualize with visual convergence -->
+ <rect x="22" y="202" width="476" height="142" rx="15" fill="url(#context)" stroke="#a5aaff" stroke-opacity=".72"/>
+ <text x="43" y="228" fill="#b9bdff" font-size="10" font-weight="700" letter-spacing="1.6">02 / CONTEXTUALIZE</text><text x="43" y="253" fill="#f2f6ff" font-size="18" font-weight="700">Turn fragments into understanding</text>
+ <!-- distinct fragments converge -->
+ <g fill="none" stroke-width="2" stroke-linecap="round"><path d="M45 280H115Q136 280 153 296L187 310" stroke="#67d7eb"/><path d="M45 296H112Q135 296 153 296" stroke="#a99cff"/><path d="M45 312H115Q136 312 153 296" stroke="#d7f28c"/></g>
+ <g><circle cx="45" cy="280" r="3.5" fill="#67d7eb"/><circle cx="45" cy="296" r="3.5" fill="#a99cff"/><circle cx="45" cy="312" r="3.5" fill="#d7f28c"/><circle cx="153" cy="296" r="6" fill="#e5e6ff" filter="url(#glow)"/></g>
+ <!-- coherent knowledge graph motif -->
+ <g fill="none" stroke="#aebaff" stroke-width="1.6" opacity=".9"><path d="M203 280l32 13 30-17 30 22 34-12 29 20M203 280l-1 31 33 10 30-28 30 5 34-12 29 20M235 293l0 28m30-45 1 45m29-23 1 18m34-30-1 30"/></g>
+ <g fill="#c4c9ff"><circle cx="203" cy="280" r="4"/><circle cx="235" cy="293" r="5"/><circle cx="265" cy="276" r="4"/><circle cx="295" cy="298" r="5"/><circle cx="329" cy="286" r="4"/><circle cx="358" cy="306" r="5"/><circle cx="202" cy="311" r="3"/><circle cx="235" cy="321" r="4"/><circle cx="265" cy="293" r="3"/><circle cx="329" cy="316" r="3"/></g>
+ <text x="390" y="285" fill="#d4d9ff" font-size="10" font-weight="700">MEANING</text><text x="390" y="301" fill="#aebaff" font-size="10">RELATIONSHIPS</text><text x="390" y="317" fill="#aebaff" font-size="10">CONTEXT</text>
+ <!-- control -->
+ <rect x="22" y="356" width="476" height="96" rx="15" fill="url(#govern)" stroke="#d7f28c" stroke-opacity=".72"/>
+ <circle cx="55" cy="404" r="18" fill="#405b47"/><path d="M55 389l12 5v9c0 8-12 14-12 14s-12-6-12-14v-9z" fill="none" stroke="#d7f28c" stroke-width="1.8"/>
+ <text x="86" y="382" fill="#d7f28c" font-size="10" font-weight="700" letter-spacing="1.6">03 / EXPOSE &amp; CONTROL</text><text x="86" y="407" fill="#f2f6ff" font-size="18" font-weight="700">Govern every interaction</text><text x="86" y="429" fill="#c1cfbf" font-size="11">Identity · permissions · usage</text>
+ <!-- visible selective access gates -->
+ <g transform="translate(389 379)"><path d="M0 12h20m12 0h20" stroke="#d7f28c" stroke-width="2" stroke-linecap="round"/><rect x="19" y="3" width="14" height="18" rx="4" fill="#d7f28c" fill-opacity=".16" stroke="#d7f28c"/><path d="M23 12l3 3 5-7" fill="none" stroke="#d7f28c" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M0 34h52" stroke="#ff8d91" stroke-opacity=".55" stroke-width="1.5" stroke-dasharray="3 4"/><circle cx="27" cy="34" r="6" fill="#422d40" stroke="#ff8d91"/><path d="M24 31l6 6m0-6-6 6" stroke="#ff8d91" stroke-width="1.3"/></g>
+</g>
+<!-- packets moving along each stream -->
+<g filter="url(#glow)"><circle r="4" fill="#d5caff"><animateMotion dur="4.6s" repeatCount="indefinite" path="M350 168H408Q430 168 430 190V230H460"/></circle><circle r="3.5" fill="#aebaff"><animateMotion dur="5.8s" begin="-2s" repeatCount="indefinite" path="M350 316H460"/></circle><circle r="4" fill="#8ce8ed"><animateMotion dur="5.2s" begin="-1.4s" repeatCount="indefinite" path="M350 464H408Q430 464 430 442V408H460"/></circle><circle r="4" fill="#67d7eb"><animateMotion dur="5.4s" begin="-1s" repeatCount="indefinite" path="M1090 156H1038Q1018 156 1018 176V210H980"/></circle><circle r="3.5" fill="#67d7eb"><animateMotion dur="6.2s" begin="-3s" repeatCount="indefinite" path="M1090 258H980"/></circle><circle r="4" fill="#67d7eb"><animateMotion dur="5.7s" begin="-2.2s" repeatCount="indefinite" path="M1090 360H1038Q1018 360 1018 340V312H980"/></circle><circle r="3.5" fill="#67d7eb"><animateMotion dur="6.4s" begin="-4s" repeatCount="indefinite" path="M1090 462H1038Q1018 462 1018 442V414H980"/></circle></g>
+<!-- selective return path: one permitted response, one denied -->
+<g fill="none" stroke-linecap="round"><path d="M460 404H420Q398 404 398 426V540H350" stroke="#d7f28c" stroke-opacity=".7" stroke-width="2.5"/><path d="M460 404H420Q398 404 398 426V540H350" stroke="#d7f28c" stroke-width="3" stroke-dasharray="5 14" class="response-flow"/><path d="M460 426H438Q424 426 424 442V578H350" stroke="#ff8d91" stroke-opacity=".35" stroke-width="1.5" stroke-dasharray="3 7"/></g>
+<g filter="url(#glow)"><circle r="4" fill="#d7f28c"><animateMotion dur="5.8s" repeatCount="indefinite" path="M460 404H420Q398 404 398 426V540H350"/></circle></g>
+<g font-family="Inter,Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1"><rect x="72" y="590" width="130" height="26" rx="13" fill="#263c3b" stroke="#d7f28c" stroke-opacity=".5"/><text x="137" y="607" fill="#d7f28c" text-anchor="middle">AUTHORIZED</text><rect x="210" y="590" width="130" height="26" rx="13" fill="#392c3c" stroke="#ff8d91" stroke-opacity=".45"/><text x="275" y="607" fill="#ff9da3" text-anchor="middle">NOT PERMITTED</text></g>
+<text x="720" y="638" fill="#8fa4c4" font-family="Inter,Arial,sans-serif" font-size="12" text-anchor="middle">One platform. Many sources. Many agents. Every interaction on your terms.</text>
+<style>
+.agent-flow{animation:agentDash 5s linear infinite}.source-flow{animation:sourceDash 6.5s linear infinite}.response-flow{animation:returnDash 5.5s linear infinite}
+@keyframes agentDash{to{stroke-dashoffset:-180}}@keyframes sourceDash{to{stroke-dashoffset:180}}@keyframes returnDash{to{stroke-dashoffset:-150}}
+@media(prefers-reduced-motion:reduce){.agent-flow,.source-flow,.response-flow{animation:none}animateMotion{display:none}}
+</style></svg>
