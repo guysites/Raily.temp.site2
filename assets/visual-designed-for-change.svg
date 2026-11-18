@@ -20,14 +20,67 @@
 <rect width="1440" height="650" rx="26" fill="url(#bg)"/>
 <ellipse cx="720" cy="320" rx="620" ry="350" fill="url(#centerGlow)"/>
 <g opacity=".08" stroke="#8ea5ff"><path d="M0 130H1440M0 260H1440M0 390H1440M0 520H1440"/><path d="M180 0V650M360 0V650M540 0V650M720 0V650M900 0V650M1080 0V650M1260 0V650"/></g>
-<!-- AI ecosystem: visibly varied and in motion -->
-<text x="58" y="62" class="ey">THE AI ECOSYSTEM</text><text x="58" y="91" class="s">New interfaces keep emerging</text>
-<g>
- <rect class="node aiNode" x="58" y="142" width="220" height="82" rx="17"/><circle cx="91" cy="183" r="18" fill="#344579"/><path d="M91 169l5 10 10 4-10 5-5 10-5-10-10-5 10-4Z" fill="#d4ceff"/><text x="123" y="179" class="h">Personal AI</text><text x="123" y="200" class="s">Acting for individuals</text>
- <rect class="node aiNode" x="58" y="257" width="220" height="82" rx="17"/><circle cx="91" cy="298" r="18" fill="#254b68"/><rect x="79" y="286" width="24" height="24" rx="7" fill="#c4f3ff"/><circle cx="86" cy="295" r="2" fill="#1c3c5b"/><circle cx="96" cy="295" r="2" fill="#1c3c5b"/><path d="M85 302h12" stroke="#1c3c5b" stroke-width="2"/><text x="123" y="294" class="h">Autonomous agents</text><text x="123" y="315" class="s">Searching · deciding · acting</text>
- <rect class="node aiNode" x="58" y="372" width="220" height="82" rx="17"/><circle cx="91" cy="413" r="18" fill="#3b416d"/><path d="M80 405h22v17H80zM84 400h14" fill="none" stroke="#d0d5ff" stroke-width="2"/><text x="123" y="409" class="h">AI applications</text><text x="123" y="430" class="s">Customer · partner · public</text>
- <rect class="ghost" x="78" y="492" width="180" height="56" rx="15"/><text x="168" y="515" text-anchor="middle" class="micro">NEXT INTERFACE</text><text x="168" y="533" text-anchor="middle" class="s">Not invented yet</text>
- <path class="ghost" d="M168 454V492"/><circle class="pulse" cx="278" cy="183" r="3" fill="#b8aaff"/><circle class="pulse" cx="278" cy="298" r="3" fill="#b8aaff"/><circle class="pulse" cx="278" cy="413" r="3" fill="#b8aaff"/>
+<!-- AI ecosystem: connection types continuously appear, evolve and fade -->
+<text x="58" y="62" class="ey">THE AI ECOSYSTEM</text><text x="58" y="91" class="s">New ways to connect keep emerging</text>
+<defs>
+ <style>
+  .emerge{transform-box:fill-box;transform-origin:center;animation:emerge 9s ease-in-out infinite}
+  .emerge.e2{animation-delay:-2.4s}.emerge.e3{animation-delay:-4.8s}.emerge.e4{animation-delay:-6.7s}
+  .emerge.e5{animation-delay:-1.1s}.emerge.e6{animation-delay:-5.5s}
+  .emerge-line{fill:none;stroke-width:1.7;stroke-linecap:round;stroke-dasharray:5 9;opacity:0;animation:lineLife 9s ease-in-out infinite}
+  .emerge-line.e2{animation-delay:-2.4s}.emerge-line.e3{animation-delay:-4.8s}.emerge-line.e4{animation-delay:-6.7s}
+  .emerge-line.e5{animation-delay:-1.1s}.emerge-line.e6{animation-delay:-5.5s}
+  @keyframes emerge{0%,8%{opacity:0;transform:translateY(16px) scale(.94)}18%,66%{opacity:1;transform:translateY(0) scale(1)}78%,100%{opacity:0;transform:translateY(-12px) scale(.96)}}
+  @keyframes lineLife{0%,14%{opacity:0;stroke-dashoffset:55}24%,64%{opacity:.75;stroke-dashoffset:0}78%,100%{opacity:0;stroke-dashoffset:-35}}
+  @media(prefers-reduced-motion:reduce){.emerge,.emerge-line{animation:none;opacity:.85;transform:none}}
+ </style>
+</defs>
+<!-- faint traces of connections that have just disappeared -->
+<g fill="none" stroke="#a99cff" stroke-opacity=".12" stroke-width="1.2" stroke-dasharray="3 8">
+ <path d="M278 158C378 158 424 224 548 224"/><path d="M278 282C392 282 420 324 548 324"/><path d="M278 406C386 406 424 456 548 456"/>
+</g>
+<!-- Connection paths animate in with their corresponding interface types -->
+<g fill="none" stroke-linecap="round">
+ <path class="emerge-line" stroke="#b6a7ff" d="M278 158C382 158 420 224 548 224"/>
+ <path class="emerge-line e2" stroke="#75d9ed" d="M278 282C388 282 426 258 548 258"/>
+ <path class="emerge-line e3" stroke="#a99cff" d="M278 406C384 406 422 340 548 340"/>
+ <path class="emerge-line e4" stroke="#d7f28c" d="M278 522C386 522 430 474 548 474"/>
+ <path class="emerge-line e5" stroke="#75d9ed" d="M278 220C378 220 422 390 548 390"/>
+ <path class="emerge-line e6" stroke="#b6a7ff" d="M278 464C380 464 426 292 548 292"/>
+</g>
+<!-- Each interface type has its own lifecycle: it arrives, connects, then gives way to the next -->
+<g class="emerge">
+ <rect class="node aiNode" x="58" y="126" width="220" height="64" rx="15"/>
+ <circle cx="88" cy="158" r="16" fill="#344579"/><path d="M88 146l4 8 8 4-8 4-4 8-4-8-8-4 8-4Z" fill="#d4ceff"/>
+ <text x="116" y="154" class="h">Personal AI</text><text x="116" y="173" class="s">Acting for individuals</text>
+</g>
+<g class="emerge e2">
+ <rect class="node aiNode" x="58" y="250" width="220" height="64" rx="15"/>
+ <circle cx="88" cy="282" r="16" fill="#254b68"/><rect x="77" y="271" width="22" height="22" rx="6" fill="#c4f3ff"/><circle cx="84" cy="279" r="1.8" fill="#1c3c5b"/><circle cx="93" cy="279" r="1.8" fill="#1c3c5b"/><path d="M83 286h10" stroke="#1c3c5b" stroke-width="1.8"/>
+ <text x="116" y="278" class="h">Autonomous agents</text><text x="116" y="297" class="s">Searching · deciding · acting</text>
+</g>
+<g class="emerge e3">
+ <rect class="node aiNode" x="58" y="374" width="220" height="64" rx="15"/>
+ <circle cx="88" cy="406" r="16" fill="#3b416d"/><path d="M78 400h20v14H78zM82 396h12" fill="none" stroke="#d0d5ff" stroke-width="2"/>
+ <text x="116" y="402" class="h">AI applications</text><text x="116" y="421" class="s">Customer · partner · public</text>
+</g>
+<g class="emerge e4">
+ <rect class="node aiNode" x="58" y="490" width="220" height="64" rx="15"/>
+ <circle cx="88" cy="522" r="16" fill="#344579"/><path d="M78 515h20v14H78zM82 511h12" fill="none" stroke="#c8d5ff" stroke-width="1.8"/>
+ <text x="116" y="518" class="h">New interfaces</text><text x="116" y="537" class="s">The next interaction model</text>
+</g>
+<g class="emerge e5">
+ <rect class="node aiNode" x="58" y="188" width="220" height="64" rx="15"/>
+ <circle cx="88" cy="220" r="16" fill="#344579"/><path d="M80 220h16M88 212v16" stroke="#c4f3ff" stroke-width="2" stroke-linecap="round"/>
+ <text x="116" y="216" class="h">Voice &amp; ambient AI</text><text x="116" y="235" class="s">Always-on experiences</text>
+</g>
+<g class="emerge e6">
+ <rect class="node aiNode" x="58" y="432" width="220" height="64" rx="15"/>
+ <circle cx="88" cy="464" r="16" fill="#344579"/><path d="M80 456h16v16H80zM84 460h8M84 464h8M84 468h5" fill="none" stroke="#d0d5ff" stroke-width="1.5"/>
+ <text x="116" y="460" class="h">New protocols</text><text x="116" y="479" class="s">New ways to interact</text>
+</g>
+<g fill="#c6baff">
+ <circle class="pulse" cx="278" cy="158" r="3"/><circle class="pulse" cx="278" cy="282" r="3"/><circle class="pulse" cx="278" cy="406" r="3"/><circle class="pulse" cx="278" cy="522" r="3"/>
 </g>
 <!-- Stable middle -->
 <text x="575" y="62" class="ey">THE STABLE INTERFACE</text>
