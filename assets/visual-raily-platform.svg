@@ -87,7 +87,7 @@
 
 <text x="720" y="638" fill="#8fa4c4" font-family="Inter,Arial,sans-serif" font-size="12" text-anchor="middle">One platform. Many sources. Many agents. Every interaction on your terms.</text>
 <style>
-.agent-flow{animation:agentDash 5s linear infinite}.source-flow{animation:sourceDash 6.5s linear infinite}.response-flow{animation:returnDash 5.5s linear infinite}
-@keyframes agentDash{to{stroke-dashoffset:-180}}@keyframes sourceDash{to{stroke-dashoffset:180}}@keyframes returnDash{to{stroke-dashoffset:-150}}
-@media(prefers-reduced-motion:reduce){.agent-flow,.source-flow,.response-flow{animation:none}animateMotion{display:none}}
+.agent-flow{animation:agentDash 5s linear infinite}.source-flow{animation:sourceDash 6.5s linear infinite}
+@keyframes agentDash{to{stroke-dashoffset:-180}}@keyframes sourceDash{to{stroke-dashoffset:180}}
+@media(prefers-reduced-motion:reduce){.agent-flow,.source-flow{animation:none}animateMotion{display:none}}
 </style></svg>
