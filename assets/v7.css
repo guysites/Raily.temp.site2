@@ -25,3 +25,13 @@
 @media(max-width:900px){.v6-cards{grid-template-columns:1fr}.v6-card .mv.visual-art img{aspect-ratio:16/9}.eco-scene .eco-canvas{min-height:0}.problem-stat{margin-top:22px}}
 @media(max-width:600px){.eco-svg.eco-ecosystem-art{min-height:220px;object-fit:cover}.v6-cards .ice-card{padding:12px 12px 22px}.v6-card .mv.visual-art{margin-bottom:18px}.v6-audiences.audience-grid>.content-card:nth-child(-n+2):before,.v6-audiences.audience-grid>.content-card:nth-child(3):before{position:static;display:inline-flex;margin:0 0 12px 12px}}
 @media(prefers-reduced-motion:reduce){.eco-svg.eco-ecosystem-art,.v6-card .mv.visual-art img{animation:none;transition:none}.v6-card.ice-card,.v6-audiences.audience-grid>.content-card{transition:none}}
+
+/* Homepage narrative chapter markers */
+.chapter-head{display:flex;align-items:flex-end;justify-content:space-between;gap:38px}
+.chapter-head>div:first-child{flex:1;min-width:0}
+.chapter-stat{flex:0 0 185px;margin:0 0 8px}
+.chapter-stat strong{font-size:54px;line-height:1;color:#d7f28c;letter-spacing:-3px}
+.chapter-stat span{font-size:10px;letter-spacing:1.8px;color:#9eafff}
+.chapter-stat small{font-size:14px;line-height:1.45;color:#afc0d7}
+@media(max-width:900px){.chapter-head{align-items:flex-start;gap:12px}.chapter-stat{flex-basis:150px}}
+@media(max-width:600px){.chapter-head{display:block}.chapter-stat{margin-top:26px;padding-top:0}}
