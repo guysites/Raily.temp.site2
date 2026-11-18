@@ -35,3 +35,9 @@
 .chapter-stat small{font-size:14px;line-height:1.45;color:#afc0d7}
 @media(max-width:900px){.chapter-head{align-items:flex-start;gap:12px}.chapter-stat{flex-basis:150px}}
 @media(max-width:600px){.chapter-head{display:block}.chapter-stat{margin-top:26px;padding-top:0}}
+
+/* Layered Raily platform illustration */
+.raily-platform-visual{position:relative;margin:42px 0 54px;overflow:hidden;border:1px solid rgba(142,165,255,.24);border-radius:28px;background:#0d1d33;box-shadow:0 30px 85px rgba(0,0,0,.26),inset 0 1px rgba(255,255,255,.04)}
+.raily-platform-visual:before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 48%,rgba(91,126,226,.11),transparent 58%)}
+.raily-platform-visual img{display:block;width:100%;height:auto;position:relative}
+@media(max-width:700px){.raily-platform-visual{margin:30px -10px 40px;border-radius:18px}.raily-platform-visual img{width:760px;max-width:none;transform:translateX(calc((100vw - 760px)/2))}}
