@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 650" role="img" aria-labelledby="title desc">
+<title id="title">Raily connects an evolving AI ecosystem with changing organizational infrastructure</title>
+<desc id="desc">AI agents, models and protocols evolve on the left. Organizational databases, content, storage and applications evolve on the right. Raily remains a stable governed access layer between them, with data flows moving in both directions.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#142b49"/><stop offset="1" stop-color="#091629"/></linearGradient>
+ <radialGradient id="centerGlow"><stop stop-color="#6688ee" stop-opacity=".30"/><stop offset="1" stop-color="#6688ee" stop-opacity="0"/></radialGradient>
+ <linearGradient id="flowAI"><stop stop-color="#a99cff"/><stop offset=".5" stop-color="#8ea5ff"/><stop offset="1" stop-color="#67d7eb"/></linearGradient>
+ <linearGradient id="flowData"><stop stop-color="#67d7eb"/><stop offset=".5" stop-color="#8ea5ff"/><stop offset="1" stop-color="#d7f28c"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <style>
+  .ey{font:700 12px Arial;letter-spacing:2px;fill:#91a9d0}.h{font:700 17px Arial;fill:#eff5ff}.s{font:12px Arial;fill:#a9bdd7}.micro{font:700 9px Arial;letter-spacing:1.4px;fill:#9db2d0}
+  .node{fill:#1a3454;stroke:#7895c9;stroke-opacity:.52;stroke-width:1.2}.aiNode{stroke:#a99cff;stroke-opacity:.65}.dataNode{stroke:#67d7eb;stroke-opacity:.62}
+  .flow{fill:none;stroke-linecap:round;stroke-width:2.5;stroke-dasharray:5 13;animation:dash 6s linear infinite}.aiFlow{stroke:url(#flowAI)}.dataFlow{stroke:url(#flowData);animation-direction:reverse}
+  .ghost{fill:none;stroke:#9eb3d7;stroke-opacity:.22;stroke-width:1.2;stroke-dasharray:4 7;animation:fade 5s ease-in-out infinite}
+  .pulse{animation:pulse 4s ease-in-out infinite}
+  @keyframes dash{to{stroke-dashoffset:-180}}@keyframes fade{0%,100%{opacity:.25}50%{opacity:.9}}@keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+  @media(prefers-reduced-motion:reduce){.flow,.ghost,.pulse{animation:none}}
+ </style>
+</defs>
+<rect width="1440" height="650" rx="26" fill="url(#bg)"/>
+<ellipse cx="720" cy="320" rx="620" ry="350" fill="url(#centerGlow)"/>
+<g opacity=".08" stroke="#8ea5ff"><path d="M0 130H1440M0 260H1440M0 390H1440M0 520H1440"/><path d="M180 0V650M360 0V650M540 0V650M720 0V650M900 0V650M1080 0V650M1260 0V650"/></g>
+<!-- AI ecosystem: visibly varied and in motion -->
+<text x="58" y="62" class="ey">THE AI ECOSYSTEM</text><text x="58" y="91" class="s">New interfaces keep emerging</text>
+<g>
+ <rect class="node aiNode" x="58" y="142" width="220" height="82" rx="17"/><circle cx="91" cy="183" r="18" fill="#344579"/><path d="M91 169l5 10 10 4-10 5-5 10-5-10-10-5 10-4Z" fill="#d4ceff"/><text x="123" y="179" class="h">Personal AI</text><text x="123" y="200" class="s">Acting for individuals</text>
+ <rect class="node aiNode" x="58" y="257" width="220" height="82" rx="17"/><circle cx="91" cy="298" r="18" fill="#254b68"/><rect x="79" y="286" width="24" height="24" rx="7" fill="#c4f3ff"/><circle cx="86" cy="295" r="2" fill="#1c3c5b"/><circle cx="96" cy="295" r="2" fill="#1c3c5b"/><path d="M85 302h12" stroke="#1c3c5b" stroke-width="2"/><text x="123" y="294" class="h">Autonomous agents</text><text x="123" y="315" class="s">Searching · deciding · acting</text>
+ <rect class="node aiNode" x="58" y="372" width="220" height="82" rx="17"/><circle cx="91" cy="413" r="18" fill="#3b416d"/><path d="M80 405h22v17H80zM84 400h14" fill="none" stroke="#d0d5ff" stroke-width="2"/><text x="123" y="409" class="h">AI applications</text><text x="123" y="430" class="s">Customer · partner · public</text>
+ <rect class="ghost" x="78" y="492" width="180" height="56" rx="15"/><text x="168" y="515" text-anchor="middle" class="micro">NEXT INTERFACE</text><text x="168" y="533" text-anchor="middle" class="s">Not invented yet</text>
+ <path class="ghost" d="M168 454V492"/><circle class="pulse" cx="278" cy="183" r="3" fill="#b8aaff"/><circle class="pulse" cx="278" cy="298" r="3" fill="#b8aaff"/><circle class="pulse" cx="278" cy="413" r="3" fill="#b8aaff"/>
+</g>
+<!-- Stable middle -->
+<text x="575" y="62" class="ey">THE STABLE INTERFACE</text>
+<rect x="548" y="112" width="344" height="426" rx="28" fill="#142943" stroke="#8ea5ff" stroke-opacity=".62" stroke-width="1.6"/>
+<rect x="559" y="123" width="322" height="404" rx="21" fill="none" stroke="#fff" stroke-opacity=".055"/>
+<circle cx="590" cy="158" r="6" fill="#d7f28c" filter="url(#glow)"/><text x="612" y="166" font-family="Arial" font-size="25" font-weight="700" fill="#f2f6ff">Raily</text><text x="854" y="164" text-anchor="end" class="micro">AI ACCESS PLATFORM</text>
+<path d="M578 190H862" stroke="#8ea5ff" stroke-opacity=".22"/>
+<g>
+ <rect x="580" y="214" width="280" height="74" rx="14" fill="#173d55" stroke="#67d7eb" stroke-opacity=".65"/><circle cx="610" cy="251" r="15" fill="#24556a"/><path d="M601 251h18m-9-9v18" stroke="#67d7eb" stroke-width="2" stroke-linecap="round"/><text x="638" y="245" class="micro">01 / CONNECT</text><text x="638" y="267" class="h">Meet existing systems</text>
+ <rect x="580" y="303" width="280" height="92" rx="14" fill="#292f5b" stroke="#a99cff" stroke-opacity=".7"/><text x="600" y="330" class="micro">02 / CONTEXTUALIZE</text><text x="600" y="354" class="h">Make information meaningful</text>
+ <g stroke-width="1.5" fill="none"><path d="M602 374l22-9 20 9 20-10 20 10" stroke="#67d7eb"/><path d="M624 365l1 16 20-7 19 8" stroke="#a99cff"/><path d="M644 374l20-9 20 10" stroke="#d7f28c"/></g><g fill="#d9e2ff"><circle cx="602" cy="374" r="3"/><circle cx="624" cy="365" r="3"/><circle cx="644" cy="374" r="4"/><circle cx="664" cy="365" r="3"/><circle cx="684" cy="375" r="3"/></g>
+ <rect x="580" y="410" width="280" height="94" rx="14" fill="#263f43" stroke="#d7f28c" stroke-opacity=".7"/><circle cx="610" cy="455" r="15" fill="#405b47"/><path d="M610 441l10 4v8c0 7-10 12-10 12s-10-5-10-12v-8z" fill="none" stroke="#d7f28c" stroke-width="1.6"/><text x="638" y="447" class="micro">03 / EXPOSE &amp; CONTROL</text><text x="638" y="470" class="h">Govern every interaction</text><text x="638" y="488" class="s">Identity · permissions · usage</text>
+</g>
+<text x="720" y="572" text-anchor="middle" class="micro">ONE CONSISTENT ACCESS LAYER</text>
+<!-- Organization infrastructure: multiple familiar systems and future additions -->
+<text x="1110" y="62" class="ey">YOUR ORGANIZATION</text><text x="1110" y="91" class="s">Your infrastructure keeps evolving</text>
+<g>
+ <rect class="node dataNode" x="1110" y="142" width="270" height="66" rx="15"/><g transform="translate(1130 159)" fill="none" stroke="#67d7eb" stroke-width="1.8"><ellipse cx="17" cy="6" rx="14" ry="6"/><path d="M3 6v25c0 8 28 8 28 0V6M3 18c0 8 28 8 28 0"/></g><text x="1180" y="180" class="h">Databases</text><text x="1180" y="197" class="s">Structured records</text>
+ <rect class="node dataNode" x="1110" y="229" width="270" height="66" rx="15"/><g transform="translate(1130 246)" fill="none" stroke="#67d7eb" stroke-width="1.8"><rect x="3" y="1" width="28" height="32" rx="3"/><path d="M9 10h16M9 17h16M9 24h11"/></g><text x="1180" y="267" class="h">Content &amp; knowledge</text><text x="1180" y="284" class="s">CMS · documents · archives</text>
+ <rect class="node dataNode" x="1110" y="316" width="270" height="66" rx="15"/><g transform="translate(1130 333)" fill="none" stroke="#67d7eb" stroke-width="1.8"><path d="M3 10l14-8 14 8v19l-14 8-14-8zM3 10l14 8 14-8M17 18v19"/></g><text x="1180" y="354" class="h">Storage &amp; repositories</text><text x="1180" y="371" class="s">Object stores · file systems</text>
+ <rect class="node dataNode" x="1110" y="403" width="270" height="66" rx="15"/><g transform="translate(1130 420)" fill="none" stroke="#a99cff" stroke-width="1.8"><circle cx="7" cy="7" r="5"/><circle cx="27" cy="7" r="5"/><circle cx="17" cy="27" r="5"/><path d="M11 11l4 11m8-11-5 11M12 7h10"/></g><text x="1180" y="441" class="h">Vector DBs &amp; APIs</text><text x="1180" y="458" class="s">Existing AI &amp; service layers</text>
+ <rect class="ghost" x="1140" y="492" width="210" height="56" rx="15"/><text x="1245" y="515" text-anchor="middle" class="micro">WHAT'S NEXT</text><text x="1245" y="533" text-anchor="middle" class="s">New systems · new data</text>
+</g>
+<!-- Dynamic connection paths: both ecosystems can change independently -->
+<g fill="none" stroke-linecap="round">
+ <path d="M278 183C390 183 420 236 548 236" stroke="#a99cff" stroke-opacity=".38" stroke-width="1.5"/><path d="M278 298H548" stroke="#8ea5ff" stroke-opacity=".38" stroke-width="1.5"/><path d="M278 413C390 413 420 466 548 466" stroke="#67d7eb" stroke-opacity=".38" stroke-width="1.5"/>
+ <path d="M892 236C990 236 1000 175 1110 175" stroke="#67d7eb" stroke-opacity=".38" stroke-width="1.5"/><path d="M892 298H1110" stroke="#67d7eb" stroke-opacity=".38" stroke-width="1.5"/><path d="M892 466C990 466 1000 436 1110 436" stroke="#d7f28c" stroke-opacity=".38" stroke-width="1.5"/>
+ <path class="flow aiFlow" d="M278 183C390 183 420 236 548 236M278 298H548M278 413C390 413 420 466 548 466"/>
+ <path class="flow dataFlow" d="M892 236C990 236 1000 175 1110 175M892 298H1110M892 466C990 466 1000 436 1110 436"/>
+</g>
+<g filter="url(#glow)"><circle r="4" fill="#c9bdff"><animateMotion dur="5s" repeatCount="indefinite" path="M548 236C420 236 390 183 278 183"/></circle><circle r="4" fill="#aebaff"><animateMotion dur="5.8s" begin="-2s" repeatCount="indefinite" path="M548 298H278"/></circle><circle r="4" fill="#8ce8ed"><animateMotion dur="5.2s" begin="-1s" repeatCount="indefinite" path="M548 466C420 466 390 413 278 413"/></circle><circle r="4" fill="#67d7eb"><animateMotion dur="5.4s" begin="-1.5s" repeatCount="indefinite" path="M1110 175C1000 175 990 236 892 236"/></circle><circle r="4" fill="#67d7eb"><animateMotion dur="6s" begin="-3s" repeatCount="indefinite" path="M1110 298H892"/></circle><circle r="4" fill="#d7f28c"><animateMotion dur="5.7s" begin="-2s" repeatCount="indefinite" path="M1110 436C1000 436 990 466 892 466"/></circle></g>
+<text x="720" y="620" text-anchor="middle" class="micro">THE ECOSYSTEM CHANGES. YOUR ACCESS LAYER STAYS CONSISTENT.</text>
+</svg>
