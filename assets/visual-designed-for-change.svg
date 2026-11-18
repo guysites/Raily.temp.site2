@@ -25,11 +25,11 @@
 <defs>
  <style>
   .emerge{transform-box:fill-box;transform-origin:center;animation:emerge 9s ease-in-out infinite}
-  .emerge.e2{animation-delay:-2.2s}.emerge.e4{animation-delay:-4.4s}.emerge.e6{animation-delay:-6.6s}.emerge.e7{animation-delay:-1.1s}
+  .emerge.e4{animation-delay:-4.4s}.emerge.e5{animation-delay:-5.5s}.emerge.e6{animation-delay:-6.6s}.emerge.e7{animation-delay:-1.1s}
   .left-line{fill:none;stroke-width:2;stroke-linecap:round;stroke-dasharray:6 10}
   .fixed-line{opacity:.82;animation:dash 1.8s linear infinite}
   .emerge-line{opacity:0;animation:lineLife 9s ease-in-out infinite,dash 1.8s linear infinite}
-  .emerge-line.e2{animation-delay:-2.2s,-2.2s}.emerge-line.e4{animation-delay:-4.4s,-4.4s}.emerge-line.e6{animation-delay:-6.6s,-6.6s}.emerge-line.e7{animation-delay:-1.1s,-1.1s}
+  .emerge-line.e4{animation-delay:-4.4s,-4.4s}.emerge-line.e5{animation-delay:-5.5s,-5.5s}.emerge-line.e6{animation-delay:-6.6s,-6.6s}.emerge-line.e7{animation-delay:-1.1s,-1.1s}
   @keyframes emerge{0%,8%{opacity:0;transform:translateY(12px) scale(.97)}18%,66%{opacity:1;transform:translateY(0) scale(1)}78%,100%{opacity:0;transform:translateY(-8px) scale(.98)}}
   @keyframes lineLife{0%,8%{opacity:0}18%,66%{opacity:.82}78%,100%{opacity:0}}
   @media(prefers-reduced-motion:reduce){.emerge,.emerge-line,.fixed-line{animation:none;opacity:1;transform:none}}
@@ -38,10 +38,10 @@
 <!-- Each connection has its own path. Dashes keep moving for as long as the connection exists. -->
 <g>
  <path class="left-line fixed-line" stroke="#b6a7ff" d="M278 142C380 142 430 210 548 210"/>
- <path class="left-line emerge-line e2" stroke="#75d9ed" d="M278 204C380 204 430 250 548 250"/>
+ <path class="left-line fixed-line" stroke="#75d9ed" d="M278 204C380 204 430 250 548 250"/>
  <path class="left-line fixed-line" stroke="#a99cff" d="M278 266C380 266 430 290 548 290"/>
  <path class="left-line emerge-line e4" stroke="#d7f28c" d="M278 328C380 328 430 330 548 330"/>
- <path class="left-line fixed-line" stroke="#75d9ed" d="M278 390C380 390 430 370 548 370"/>
+ <path class="left-line emerge-line e5" stroke="#75d9ed" d="M278 390C380 390 430 370 548 370"/>
  <path class="left-line emerge-line e6" stroke="#b6a7ff" d="M278 452C380 452 430 410 548 410"/>
  <path class="left-line emerge-line e7" stroke="#67d7eb" d="M278 514C380 514 430 450 548 450"/>
 </g>
@@ -52,7 +52,7 @@
  <text x="110" y="139" class="h">Personal AI</text><text x="110" y="157" class="s">Acting for individuals</text>
 </g>
 <!-- 2: emerging -->
-<g class="emerge e2">
+<g>
  <rect class="node aiNode" x="58" y="176" width="220" height="56" rx="14"/>
  <circle cx="86" cy="204" r="14" fill="#254b68"/><rect x="76" y="194" width="20" height="20" rx="5" fill="#c4f3ff"/><circle cx="82" cy="201" r="1.6" fill="#1c3c5b"/><circle cx="90" cy="201" r="1.6" fill="#1c3c5b"/><path d="M81 207h9" stroke="#1c3c5b" stroke-width="1.6"/>
  <text x="110" y="201" class="h">Autonomous agents</text><text x="110" y="219" class="s">Searching · deciding · acting</text>
@@ -70,7 +70,7 @@
  <text x="110" y="325" class="h">Multimodal AI</text><text x="110" y="343" class="s">Voice · vision · new inputs</text>
 </g>
 <!-- 5: permanent -->
-<g>
+<g class="emerge e5">
  <rect class="node aiNode" x="58" y="362" width="220" height="56" rx="14"/>
  <circle cx="86" cy="390" r="14" fill="#344579"/><path d="M79 390h14M86 383v14" stroke="#c4f3ff" stroke-width="1.8" stroke-linecap="round"/>
  <text x="110" y="387" class="h">Voice &amp; ambient AI</text><text x="110" y="405" class="s">Always-on experiences</text>
